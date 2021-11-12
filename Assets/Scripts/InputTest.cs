@@ -23,7 +23,17 @@ public class InputTest : MonoBehaviour
             print("Space Key was pressed");
             numberOne++;
             print(numberOne);
+        
+
+            if(numberOne == 3)
+        
+            print("TRUE " + numberOne);
+        
+            else if (numberOne == 7)
+        
+            print("TRUE " + numberOne);
         }
+        
                 
     }
 }
