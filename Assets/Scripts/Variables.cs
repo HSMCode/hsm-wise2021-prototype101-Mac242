@@ -5,9 +5,9 @@ using UnityEngine;
 public class Variables : MonoBehaviour
 {
     public float []  values;
-    public float newValue;
+    private float newValue;
     public float divider;
-    public float result;
+    private float result;
     public string stringText = "Result of Division is ";
     
     // Start is called before the first frame update
