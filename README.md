@@ -1,4 +1,4 @@
-# Project Title
+# Prototype101-Mac242
 
 This project was imported using the **Unity 2020.3.x** empty base project.
 Please fill out/change the ReadMe according to your needs, following the guide below.
