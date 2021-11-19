@@ -8,6 +8,7 @@ public class RandomDice20 : MonoBehaviour
     public int currentDiceNumber;
     public string winText = "-You WIN!";
     public string loseText = "-No Luck, try again!";
+    public int[] winningNumbers = {7, 13, 1};
     
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,9 @@ public class RandomDice20 : MonoBehaviour
             //Debug.Log(currentDiceNumber);
             
             //checking for winning numbers
-            if (currentDiceNumber == 7 || currentDiceNumber ==13 || currentDiceNumber ==1)
+           // if (currentDiceNumber == 7 || currentDiceNumber ==13 || currentDiceNumber ==1)
+
+           if (currentDiceNumber == winningNumbers[0] || currentDiceNumber == winningNumbers[1] || currentDiceNumber == winningNumbers[2])
             {
                 print(currentDiceNumber + winText);
             }
@@ -33,9 +36,6 @@ public class RandomDice20 : MonoBehaviour
             {
                 print(currentDiceNumber + loseText);
             }
-        }
-
-        
-            
+        }        
     }
 }
